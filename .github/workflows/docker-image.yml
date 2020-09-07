@@ -32,5 +32,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: imranonline/docker/python-flask:v1
+          repository: imranonline/docker/python-flask
           tag_with_ref: true
